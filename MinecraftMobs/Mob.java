@@ -8,7 +8,7 @@ public class Mob {
 	protected int health;
 	protected int moveSpeed;
 
-	public Mob(int h, int mS){
+	public __(int h, int mS){
 		health = h;
 		moveSpeed = mS;
 	}

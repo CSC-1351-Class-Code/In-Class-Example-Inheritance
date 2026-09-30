@@ -6,7 +6,7 @@ public class AggressiveMob extends Mob{
 	protected int detectionRadius;
 	protected double attackSpeed;
 
-	public AggressiveMob(int h, int mS, int d, int dR, double aS){
+	public __(int h, int mS, int d, int dR, double aS){
 		// Since health and movementSpeed are made by the parent
 		// super needs to be used here to invoke that constructor
 		super(h, mS);
@@ -15,7 +15,7 @@ public class AggressiveMob extends Mob{
 		attackSpeed = aS;
 	}
 
-	public int getDamage() {
+	public int __() {
 		return damage;
 	}
 
@@ -23,7 +23,7 @@ public class AggressiveMob extends Mob{
 		return detectionRadius;
 	}
 
-	public double getAttackSpeed() {
+	public double __() {
 		return attackSpeed;
 	}
 

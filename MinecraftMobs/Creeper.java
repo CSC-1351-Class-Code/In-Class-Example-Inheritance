@@ -10,13 +10,13 @@ public class Creeper extends AggressiveMob{
 
 	// This is to show the specific implementation
 	// of sound() and attack() for the Creeper class
-	@Override
-	public void sound(){
+	@__
+	public void __(){
 		System.out.println("Hisssssssssssss!");
 	}
 
-	@Override
-	protected int attack(){
+	@__
+	protected int __(){
 		return (int)(super.attack()*100);
 	}
 

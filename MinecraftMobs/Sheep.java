@@ -4,7 +4,7 @@ public class Sheep extends PassiveMob{
 	private boolean isSheared;
 	private boolean isFed;
 
-	public Sheep(int h, int mS, boolean iS, boolean iF){
+	public __(int h, int mS, boolean iS, boolean iF){
 		// Since health and movementSpeed are made by the parent
 		// super needs to be used here to invoke that constructor
 		super(h, mS);
@@ -28,8 +28,8 @@ public class Sheep extends PassiveMob{
 		return isFed;
 	}
 
-	@Override
-	public void sound() {
+	@__
+	public void __() {
 		super.sound();
 		System.out.println("Baaaaaaaaaaa!");
 	}

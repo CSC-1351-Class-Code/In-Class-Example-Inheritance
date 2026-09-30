@@ -39,12 +39,12 @@ public class MobRunner {
 		// Also, we must a common parent of the elements of the list because Java is a strongly
 		// typed language
 		// This means the following list could use AggresiveMob as well
-		Mob[] mobs = {captainSparklez, carl, geoff, karl, jeff, qarl};
+		__[] mobs = {captainSparklez, carl, geoff, karl, jeff, qarl};
 
 		// All Mobs have a sound() function
 		// If it is a child class, then that version is used
 		// otherwise, the default on is used
-		for(Mob m : mobs){
+		for(__ m : mobs){
 			m.sound();
 		}
 
